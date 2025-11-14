@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Report</title>
+  <style>
+  {{{css}}}
+  </style>
+
+
+</head>
+<body>
+  <h1>🌤️ Weather Report</h1>
+  <p>Generated on: {{timestamp}}</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>City</th>
+        <th>Temperature (°C)</th>
+        <th>Description</th>
+        <th>Humidity (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each cities}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{temp}}</td>
+        <td>{{description}}</td>
+        <td>{{humidity}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+
+  <div class="averages">
+    <h3>Average Temperature: {{avgTemp}}°C</h3>
+    <h3>Average Humidity: {{avgHumidity}}%</h3>
+  </div>
+</body>
+</html>
