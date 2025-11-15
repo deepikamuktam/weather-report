@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const __dirname = path.resolve(); // Add this for ES modules
+const __dirname = path.resolve(); 
 
 const API_KEY = process.env.API_KEY;
 const cities = ["Hyderabad", "Bengaluru", "Mumbai", "Chennai", "Anantapur"];
