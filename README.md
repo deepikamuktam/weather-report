@@ -51,15 +51,7 @@ This Node.js project fetches weather data for multiple cities using the OpenWeat
 
 The generated PDF will be saved in your folder.
 
-📁 Important Files
 
- - index.js — main script
-
- -  templates/report.hbs — HTML template
-
- - styles/style.css — styling for the report
-
- - .env — stores your API key
 
 
 
