@@ -49,7 +49,7 @@ This Node.js project fetches weather data for multiple cities using the OpenWeat
 
 
 
-The generated PDF will be saved in your reports/ folder.
+The generated PDF will be saved in your folder.
 
 📁 Important Files
 
