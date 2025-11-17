@@ -31,7 +31,7 @@ This Node.js project fetches weather data for multiple cities using the OpenWeat
 
 1.Install dependencies:
 
-  ` npm install `
+  ` npm install axios puppeteer dotenv handlebars `
 
 
 2.Install Chromium for Puppeteer:
